@@ -1,6 +1,3 @@
 Luis Nicanor <luis.nicg@gmail.com>
-<<<<<<< HEAD
-Luis Trujillo <siullegna119@gmail.com>
-=======
+Luis Trujillo <siullegna19@gmail.com>
 Gerardo Valencia <grdvalencia.r@gmail.com>
->>>>>>> master
