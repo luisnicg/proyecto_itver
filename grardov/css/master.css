@@ -1,0 +1,139 @@
+/** Author: Gerardo Valencia Rivero
+  * Styles for the little example of websites
+  */
+
+/* Import using Google Font API */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+/* --- Wrapper or General Wrapper --- */
+.wrapper{
+  width: 880px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+/* --- Wrapper or General Wrapper --- */
+
+/* --- Header --- */
+header{
+  background-image: url('../img/pattern.png');
+  border-bottom: 4px solid deeppink;
+}
+
+header h1{
+  color: white;
+  margin: 0;
+}
+
+header small{
+  color: white;
+}
+
+.brand{ padding: 50px 0; }
+
+.brand h1{
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.brand h1 span{
+  color: deeppink;
+}
+
+.brand small{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* --- Header > Nav --- */
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+nav .right-items{ float: right; }
+
+nav .right-items li{
+  float: left;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+nav .right-items li a{
+  padding: 7px 35px;
+  color: white;
+  text-decoration: none;
+}
+
+.active{ background-color: deeppink; }
+
+nav .right-items li a:hover{ background-color: deeppink; }
+/* --- Header > Nav --- */
+/* --- Header --- */
+
+/* --- Banner --- */
+.banner{ margin: 30px 0; }
+
+.banner img{
+  border: 5px solid deeppink;
+}
+/* --- Banner --- */
+
+/* --- Section --- */
+section{
+  width: 570px;
+  float: left;
+  border-right: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+section h3{
+  color: deeppink;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+section p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+/* --- Section --- */
+
+/* --- Aside --- */
+aside{
+  width: 270px;
+  float: right;
+  border-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px
+}
+
+aside h3{
+  color: deeppink;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+aside p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.aside-square{
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.aside-square input{
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.aside-square img{ width: 20px;}
+/* --- Aside --- */
