@@ -1,0 +1,190 @@
+
+/* 
+	* Author: Arturo de Jesus Martinez Cura
+	* Styles for texture_orbs template 
+ */
+
+/* Universal Styles */
+body{
+	background-image: url("../img/pattern.png");
+	background-position: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+a{
+	color: #3EAAC5;
+}
+
+/* Header and navbar style */
+
+header{
+	color: white;
+	clear: both;
+	overflow: hidden;
+	clear: left;
+}
+
+.page-title, .page-slogan{
+	margin-left: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.page-title > .darker{
+	color: #E7746F;
+}
+
+.nav-menu{
+	list-style-type: none;
+	margin-top: 25px;
+	padding: 0px;
+	float: right;
+}
+
+.menu-item{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.menu-item > a{
+	display: block;
+	text-align: center;
+	padding: 5px 30px 5px 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.activated{
+	background-color: #E7746F;
+}
+
+/* Main content style */
+
+.page-content{
+	background-color: white;
+	padding: 10px 25px 10px 25px;
+	overflow: auto;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #E7746F;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #E7746F;
+}
+
+.content-banner{
+	text-align: center;
+}
+
+.content-banner > img{
+	width: 100%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #E7746F;
+}
+
+.content-body{
+	float: left;
+	width: 65%;
+}
+
+/* Bullet list style */
+
+
+.bullet-list{
+	list-style-type: none;
+}
+
+.bulltet-list-item > .bullet-icon{
+	float: left;
+}
+
+.bulltet-list-item > p{
+	margin: 0px;
+}
+
+/* Sidebar style */
+
+.right-sidebar{
+	margin-top: 20px;
+	float: right;
+	width: 25%;
+}
+
+.sidebar-box{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #EEEEEE;
+	border-radius: 15px;
+	padding: 0px 15px 20px 15px;
+	margin-bottom: 20px;
+}
+
+.event-box > .event-title{
+	color: #3EAAC5;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.event-box > .event-body{
+	color: #B8C5CE;
+	margin: 0px;
+}
+
+.section-title{
+	color: #E7746F;
+}
+
+.sidebar-box-title{
+	color: #E7746F;
+}
+
+/* Search box style */
+
+.search-box{
+	overflow: auto;
+}
+.search-box > .search-box-input{
+	float: left;
+	overflow: auto;
+}
+
+.search-box > img{
+	float: left;
+}
+
+/* Footer style */
+
+.footer-nav-menu{
+	text-align: center;
+	margin: 0px;
+}
+
+.footer-nav-menu > .footer-menu-item{
+	list-style-type: none;
+	margin-top: 20px;
+	display: inline-block;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+}
+
+.footer-nav-menu > .footer-menu-item:not(:last-child){
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: white;
+	padding: 0px 7px 0px 5px;
+}
+
+.copyright{
+	color: white;
+	font-weight: bold;
+}
+
+.footer-menu-item > a{
+	color: #E7746F;
+	text-decoration: none;
+	text-align: center
+}
