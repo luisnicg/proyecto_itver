@@ -16,7 +16,7 @@
 /* --- Header --- */
 header{
   background-image: url('../img/pattern.png');
-  border-bottom: 4px solid deeppink;
+  border-bottom: 4px solid #E7746F;
 }
 
 header h1{
@@ -36,7 +36,7 @@ header small{
 }
 
 .brand h1 span{
-  color: deeppink;
+  color: #E7746F;
 }
 
 .brand small{
@@ -68,9 +68,9 @@ nav .right-items li a{
   text-decoration: none;
 }
 
-.active{ background-color: deeppink; }
+.active{ background-color: #E7746F; }
 
-nav .right-items li a:hover{ background-color: deeppink; }
+nav .right-items li a:hover{ background-color: #E7746F; }
 /* --- Header > Nav --- */
 /* --- Header --- */
 
@@ -78,7 +78,7 @@ nav .right-items li a:hover{ background-color: deeppink; }
 .banner{ margin: 30px 0; }
 
 .banner img{
-  border: 5px solid deeppink;
+  border: 5px solid #E7746F;
 }
 /* --- Banner --- */
 
@@ -92,7 +92,7 @@ section{
 }
 
 section h3{
-  color: deeppink;
+  color: #E7746F;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
@@ -101,6 +101,8 @@ section p{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
+
+section ul{ list-style: none; }
 /* --- Section --- */
 
 /* --- Aside --- */
@@ -113,7 +115,7 @@ aside{
 }
 
 aside h3{
-  color: deeppink;
+  color: #E7746F;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
@@ -122,6 +124,8 @@ aside p{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
+
+.aside-square ul{ list-style: none; }
 
 .aside-square{
   border: 1px solid #eee;
@@ -138,9 +142,10 @@ aside p{
 .aside-square img{ width: 20px;}
 /* --- Aside --- */
 
+/* --- Footer --- */
 footer{
   background-image: url('../img/pattern.png');
-  border-top: 4px solid deeppink;
+  border-top: 4px solid #E7746F;
   height: 100px;
   clear: both;
 }
@@ -161,6 +166,11 @@ footer li{display: inline;}
 .footer-items-two{margin: 0 16%;}
 
 footer .footer-items li a{
-  color: deeppink;
+  color: #E7746F;
   text-decoration: none;
 }
+footer .footer-items-two li a{
+  color: #E7746F;
+  text-decoration: none;
+}
+/* --- Footer --- */
