@@ -106,7 +106,7 @@ section p{
 /* --- Aside --- */
 aside{
   width: 270px;
-  float: right;
+  float: left;
   border-left: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px
@@ -137,3 +137,30 @@ aside p{
 
 .aside-square img{ width: 20px;}
 /* --- Aside --- */
+
+footer{
+  background-image: url('../img/pattern.png');
+  border-top: 4px solid deeppink;
+  height: 100px;
+  clear: both;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+footer li{display: inline;}
+
+.footer-items{padding: 20px 0px; margin: 0 28%;}
+.footer-items-two{margin: 0 16%;}
+
+footer .footer-items li a{
+  color: deeppink;
+  text-decoration: none;
+}
