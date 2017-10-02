@@ -1,0 +1,186 @@
+.active{
+	background-color: #e74c3c;
+}
+
+.banner{
+	margin-bottom: 30px;
+}
+
+.banner > img{
+	width:100%;
+	border: 5px solid #e74c3c;
+}
+
+body{
+	margin: 0px;
+}
+
+body *{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.border-radius{
+	border: 1px solid gray;
+	border-radius: 15px;
+}
+
+.content{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 30px;
+}
+
+.content-wo-space *{
+	margin: 0px;
+}
+
+.copyright{
+	color: white;
+}
+
+.date{
+	color:#95a5a6;
+}
+
+.div-box *{
+	display: inline-block;
+}
+
+.div-information{
+	display: inline-block;
+	width: 68%;
+}
+
+.div-information>p{
+	font-size: 17px;
+}
+
+.div-information *{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.div-news{
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	width: 25%;
+}
+
+.footer{
+	background-image: url("../img/pattern.png"); 
+	background-size: cover;
+	border-top: 3px solid #e74c3c;
+	margin-top: 30px; 
+	padding-bottom: 5px;
+	padding-top: 15px;
+	text-align: center;
+	}
+
+.wcopyright{
+	color: white !important;
+}
+
+.footer li{
+	color:#e74c3c;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.header{
+	background-image: url("../img/pattern.png"); 
+	background-size: cover;
+	padding-left: 70px;
+	padding-top: 30px;
+}
+
+.header>p{
+	color:white;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+header{
+	border-bottom: 3px solid #e74c3c;
+}
+
+.input-search{
+	float:left;
+	width: 170px;
+	height: 23px;
+	overflow: none;
+}
+
+.latest-news{
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.link{
+	color: #3498db;
+}
+
+.main-title{
+	color: #e74c3c;
+}
+
+.nav-menu{
+	padding-bottom: 10px; 
+	padding-right: 100px;
+	padding-top: 40px;
+	text-align: right;
+}
+
+.nav-menu > ul >li {
+	color: white;
+	display: inline-block;
+	padding-left: 40px; 
+	padding-bottom: 10px;
+	padding-right: 40px; 
+	padding-top: 10px;  
+}
+
+.nav-menu > ul >li:hover {
+	background-color: #e74c3c;
+}
+
+.newp-size{
+	font-size: 20px;
+}
+
+.read-more{
+	margin: 0px;
+}
+
+.search-box{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.separate{
+	border-right: 1px solid white;
+}
+
+.title{
+	font-size: 50px;
+	color:white;
+	letter-spacing: 8px;
+}
+
+.useful-links{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.wo-bullet{
+	list-style-type: none; 
+}
